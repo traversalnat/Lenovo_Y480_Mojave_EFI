@@ -1,0 +1,1 @@
+# Lenovo_Y480_Mojave_EFI
