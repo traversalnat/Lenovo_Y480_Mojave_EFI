@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15A178l</string>
+	<string>17A405001</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>IO80211NetBooter</string>
 	<key>CFBundleGetInfoString</key>
-	<string>11.0, Copyright © 2005–2012 Apple Inc. All rights reserved.</string>
+	<string>12.0, Copyright © 2005–2016 Apple Inc. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.driver.IO80211NetBooter</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>11.0</string>
+	<string>12.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,21 +27,23 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1100.23</string>
+	<string>1200.12.2</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>7A176g</string>
+	<string>10P70r</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>10.14</string>
 	<key>DTSDKBuild</key>
-	<string>15A277</string>
+	<string>18Y1921</string>
 	<key>DTSDKName</key>
-	<string>macosx10.11internal</string>
+	<string>macosx10.14internal</string>
 	<key>DTXcode</key>
-	<string>0700</string>
+	<string>1020</string>
 	<key>DTXcodeBuild</key>
-	<string>7A176g</string>
+	<string>10P70r</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>IO80211NetBooter</key>
@@ -52,10 +54,12 @@
 			<string>IO80211NetBootNub</string>
 		</dict>
 	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.14</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IO80211Family</key>
-		<string>1100.23</string>
+		<string>1200.12.2</string>
 		<key>com.apple.iokit.IONetworkingFamily</key>
 		<string>3.0</string>
 		<key>com.apple.kpi.bsd</key>

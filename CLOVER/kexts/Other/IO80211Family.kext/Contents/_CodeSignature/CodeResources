@@ -6,25 +6,16 @@
 	<dict>
 		<key>version.plist</key>
 		<data>
-		MqKVDIf7S7m24zlqb9+nHHsBaKY=
+		Rco2RSl3LszB8PmlClC+xKdTFqg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>PlugIns/AirPortAtheros40.kext</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			eVKwQEoeN61mksqZuhDn0KvcyGI=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.apple.driver.AirPort.Atheros40" and anchor apple</string>
-		</dict>
 		<key>PlugIns/AirPortBrcm4331.kext</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			J8pWlfKBeVTNRwfFKAyEokc/dG4=
+			zVO7QTXPbrD+SOCm2y5gbDebeD4=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.driver.AirPort.Brcm4331" and anchor apple</string>
@@ -33,33 +24,36 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			uMk1jvpXKmIi/yiwEccBpM1h2YA=
+			9pI/7jo5sVVJFcpK65M4k8afTsQ=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.driver.AirPort.Brcm4360" and anchor apple</string>
 		</dict>
-		<key>PlugIns/AppleAirPortBrcm43224.kext</key>
+		<key>PlugIns/AirPortBrcmNIC.kext</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			jDkJjfnsM7+1LnH7kTE+kJCIs/4=
+			x/dpNNURkAZrLZpINdDowiIeA/4=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.driver.AirPortBrcm43224" and anchor apple</string>
+			<string>identifier "com.apple.driver.AirPort.BrcmNIC" and anchor apple</string>
 		</dict>
 		<key>PlugIns/IO80211NetBooter.kext</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			dPzfrOm/PYAeSPs2dNlHn8APCgs=
+			D4cYz9B8U7XZss+jCpqh0V8GMz0=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.driver.IO80211NetBooter" and anchor apple</string>
 		</dict>
 		<key>version.plist</key>
-		<data>
-		MqKVDIf7S7m24zlqb9+nHHsBaKY=
-		</data>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h7QRt6kr4GTXacmh8XNMtPbyNl8WPVi7WmYO7liR6qM=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
@@ -78,6 +72,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -137,6 +136,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>

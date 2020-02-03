@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15A178l</string>
+	<string>17A405001</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -27,21 +27,23 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>800.20.24</string>
+	<string>800.21.31</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>7A176g</string>
+	<string>10P70r</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>10.14</string>
 	<key>DTSDKBuild</key>
-	<string>15A283</string>
+	<string>18Y1921</string>
 	<key>DTSDKName</key>
-	<string>macosx10.11internal</string>
+	<string>macosx10.14internal</string>
 	<key>DTXcode</key>
-	<string>0700</string>
+	<string>1020</string>
 	<key>DTXcodeBuild</key>
-	<string>7A176g</string>
+	<string>10P70r</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Broadcom 802.11 PCI</key>
@@ -66,6 +68,10 @@
 			<true/>
 		</dict>
 	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.14</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2006-2016 Apple Inc. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IO80211Family</key>
@@ -75,15 +81,17 @@
 		<key>com.apple.iokit.IOPCIFamily</key>
 		<string>2.9</string>
 		<key>com.apple.kpi.bsd</key>
-		<string>14.0.0</string>
+		<string>13.0.0</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>14.0.0</string>
+		<string>13.0.0</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>14.0.0</string>
+		<string>13.0.0</string>
 		<key>com.apple.kpi.mach</key>
-		<string>14.0.0</string>
+		<string>13.0.0</string>
+		<key>com.apple.kpi.private</key>
+		<string>13.0.0</string>
 		<key>com.apple.kpi.unsupported</key>
-		<string>14.0.0</string>
+		<string>13.0.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Network-Root</string>
