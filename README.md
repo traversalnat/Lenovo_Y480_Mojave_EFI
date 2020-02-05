@@ -3,5 +3,10 @@
 ### 该EFI 兼容 Mojave
 ### 声卡alc_269 注入layout_id: 7
 ### 无线网卡: 自行更换或购买usb网卡, Y480支持AR5B195/AR9285 网卡
-###	AR5B195/AR9285 网卡：已将需要的驱动(IO80211Family(V2).kext)放入CLOVER中
+###	AR5B195/AR9285 网卡：已将需要的驱动(IO80211Family.kext，IO80211FamilyV2.kext)放入CLOVER中(需删除SLE目录中的同名文件），也可以直接替换SLE的同名文件
+
+### 以下两条指令可将根目录重新挂载为可读写
+` sudo spctl --master-disable`
+
+`	sudo mount -uw /`
 ### 蓝牙: 已将IOBluetoothFamily.kext 放在clover 的kext目录中, 使用不稳定，无法使用蓝牙鼠标、耳机等
