@@ -9,4 +9,4 @@
 ` sudo spctl --master-disable`
 
 `	sudo mount -uw /`
-### 蓝牙: 已将IOBluetoothFamily.kext 放在clover 的kext目录中, 使用不稳定，无法使用蓝牙鼠标、耳机等
+### 蓝牙: 参考 `https://www.jianshu.com/p/4044c7091f1f` 更换ID
